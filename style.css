@@ -16,13 +16,14 @@ input[type=text], input[type=password] {
 }
 
 button {
-  background-color: aqua;
+  background-color: green;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
   width: 100%;
+  font-family: 'Gemunu Libre', sans-serif;
 }
 
 button:hover {
@@ -62,4 +63,9 @@ span.psw {
   .cancelbtn {
     width: 100%;
   }  
+}
+
+.register {
+  background-color: #f1f1f1;
+  text-align: center;
 }
