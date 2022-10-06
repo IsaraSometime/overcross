@@ -1,5 +1,6 @@
 body {
     font-family: 'Gemunu Libre', sans-serif;
+    background: linear-gradient(12deg, #3e5151, #decba4);
 }
 
 * {

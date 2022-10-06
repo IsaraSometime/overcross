@@ -9,38 +9,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Noto+Sans+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-        <h1>Login Form</h1>
+    <h1>Capybara Production</h1>
+    <p>Original Since 2020</p>
+
+    <form>
         
-        <form>
         <div class="imgcontainer">
-            <img src="img/capybaraUser1.jpg" alt="Avatar" class="Avatar" width="200" height="200" >
-        </div> 
+            <img src="img/capybaraUser1.jpg" alt="Avatar" class="Avatar"  width="300" height="300">
+        </div>
 
         <div class="container">
+
             <label for="uname"><b>Username</b></label>
             <input type="text" placeholder="Enter Username" name="uname" required>
 
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
+            <hr>
 
-            <button type="submit">Login</button>
-            <label>
-                <input type="checkbox" checked="checked" name="Remember me">
-            </label>
-        </div>
+            <p>Forget <a href="#">Password</a></p>
 
-        <div class="container" style="background: #f1f1f1 ">
-            <button type="button" class="cancelbtn">Cancel</button>
-            <span class="psw">Forget <a href="#">password</a></span>
+            <button type="submit" class="loginbtn">Login</button>
+
         </div>
 
         <div class="container register">
-            <p>Create Account <a href="register.html">Register</a></p>
+            <p>Create Account <a href="register.html">Sign in</a></p>
         </div>
 
-        </form>
+    </form>
 
-
-        <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

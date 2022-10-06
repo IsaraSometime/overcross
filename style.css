@@ -1,9 +1,29 @@
 body {
   font-family: 'Gemunu Libre', sans-serif;
+  background: linear-gradient(12deg, #3e5151, #decba4);
 }
 
 form {
   border: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 300px;
+  border-radius: 60%;
+}
+
+.container {
+  padding: 16px;
+  background-color: whitesmoke;
 }
 
 input[type=text], input[type=password] {
@@ -15,7 +35,13 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
-button {
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.loginbtn {
   background-color: green;
   color: white;
   padding: 14px 20px;
@@ -26,46 +52,14 @@ button {
   font-family: 'Gemunu Libre', sans-serif;
 }
 
-button:hover {
+.loginbtn:hover {
   opacity: 0.8;
 }
 
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
-
-.imgcontainer {
+p {
   text-align: center;
-  margin: 24px 0 12px 0;
-}
-
-img.avatar {
-  width: 150px;
-  border-radius: 60px;
-}
-
-.container {
-  padding: 16px;
-}
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-@media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-  }
-  .cancelbtn {
-    width: 100%;
-  }  
 }
 
 .register {
-  background-color: #f1f1f1;
   text-align: center;
 }
